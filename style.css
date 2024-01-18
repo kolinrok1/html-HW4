@@ -13,6 +13,7 @@ body{
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header{
     margin-bottom: 160px;
@@ -88,4 +89,26 @@ border: 1px solid transparent;
 }
 .logo-box{
     margin-bottom: 250px;
+}
+.brain-head{
+    color: var(--ffffff, #FFF);
+font-family: 'Open Sans', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 52px */
+margin-bottom: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 389px);
+    gap: 30px;
+}
+.big-icon{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.small-icon, .big-icon{
+    background-color: #fff;
 }
