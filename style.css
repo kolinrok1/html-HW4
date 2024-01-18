@@ -89,7 +89,3 @@ border: 1px solid transparent;
 .logo-box{
     margin-bottom: 250px;
 }
-.logo{
-    display: flex;
-    justify-content: space-between;
-}
